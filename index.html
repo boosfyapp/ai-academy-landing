@@ -1282,8 +1282,8 @@
   to { transform: rotate(-360deg); }
 }
 @keyframes glow-text {
-  0%, 100% { filter: drop-shadow(0 0 6px #00ff88bb); }
-  50% { filter: drop-shadow(0 0 18px #00ff88ff) drop-shadow(0 0 35px #00ff8844); }
+  0%, 100% { filter: drop-shadow(0 0 6px #FF4D00bb); }
+  50% { filter: drop-shadow(0 0 18px #FF4D00ff) drop-shadow(0 0 35px #FF8A0044); }
 }
 .logo-ring-outer { animation: rotate-ring 18s linear infinite; transform-origin: 52px 52px; }
 .logo-ring-inner { animation: rotate-ring-rev 10s linear infinite; transform-origin: 52px 52px; }
@@ -1298,15 +1298,15 @@
     <svg width="320" height="64" viewBox="0 0 520 104" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="lgH" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#00ff88"/>
-      <stop offset="100%" stop-color="#00d4ff"/>
+      <stop offset="0%" stop-color="#FF4D00"/>
+      <stop offset="100%" stop-color="#FF8A00"/>
     </linearGradient>
     <linearGradient id="lgHx" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#00ff88"/>
-      <stop offset="100%" stop-color="#00d4ff"/>
+      <stop offset="0%" stop-color="#FF4D00"/>
+      <stop offset="100%" stop-color="#6C63FF"/>
     </linearGradient>
     <radialGradient id="lbgGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#00ff8820"/>
+      <stop offset="0%" stop-color="#FF4D0020"/>
       <stop offset="100%" stop-color="transparent"/>
     </radialGradient>
     <filter id="lgf" x="-50%" y="-50%" width="200%" height="200%">
@@ -1320,37 +1320,37 @@
   </defs>
   <circle cx="52" cy="52" r="44" fill="url(#lbgGlow)"/>
   <g class="logo-ring-outer">
-    <circle cx="52" cy="52" r="42" fill="none" stroke="#00ff88" stroke-width="1" stroke-dasharray="4 8" opacity="0.35"/>
+    <circle cx="52" cy="52" r="42" fill="none" stroke="#FF4D00" stroke-width="1" stroke-dasharray="4 8" opacity="0.35"/>
   </g>
   <g class="logo-ring-inner">
-    <circle cx="52" cy="52" r="34" fill="none" stroke="#00d4ff" stroke-width="0.8" stroke-dasharray="2 6" opacity="0.25"/>
+    <circle cx="52" cy="52" r="34" fill="none" stroke="#6C63FF" stroke-width="0.8" stroke-dasharray="2 6" opacity="0.25"/>
   </g>
   <circle cx="52" cy="52" r="38" fill="none" stroke="url(#lgH)" stroke-width="1.5" filter="url(#lgf)"/>
   <g filter="url(#lgf)" opacity="0.7">
-    <line x1="52" y1="14" x2="52" y2="20" stroke="#00ff88" stroke-width="1.5" stroke-linecap="round"/>
-    <line x1="52" y1="84" x2="52" y2="90" stroke="#00ff88" stroke-width="1.5" stroke-linecap="round"/>
-    <line x1="14" y1="52" x2="20" y2="52" stroke="#00d4ff" stroke-width="1.5" stroke-linecap="round"/>
-    <line x1="84" y1="52" x2="90" y2="52" stroke="#00d4ff" stroke-width="1.5" stroke-linecap="round"/>
-    <line x1="25" y1="25" x2="29.2" y2="29.2" stroke="#00ff88" stroke-width="1" stroke-linecap="round" opacity="0.5"/>
-    <line x1="74.8" y1="74.8" x2="79" y2="79" stroke="#00ff88" stroke-width="1" stroke-linecap="round" opacity="0.5"/>
-    <line x1="79" y1="25" x2="74.8" y2="29.2" stroke="#00d4ff" stroke-width="1" stroke-linecap="round" opacity="0.5"/>
-    <line x1="29.2" y1="74.8" x2="25" y2="79" stroke="#00d4ff" stroke-width="1" stroke-linecap="round" opacity="0.5"/>
+    <line x1="52" y1="14" x2="52" y2="20" stroke="#FF4D00" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="52" y1="84" x2="52" y2="90" stroke="#FF4D00" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="14" y1="52" x2="20" y2="52" stroke="#6C63FF" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="84" y1="52" x2="90" y2="52" stroke="#6C63FF" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="25" y1="25" x2="29.2" y2="29.2" stroke="#FF4D00" stroke-width="1" stroke-linecap="round" opacity="0.5"/>
+    <line x1="74.8" y1="74.8" x2="79" y2="79" stroke="#FF4D00" stroke-width="1" stroke-linecap="round" opacity="0.5"/>
+    <line x1="79" y1="25" x2="74.8" y2="29.2" stroke="#6C63FF" stroke-width="1" stroke-linecap="round" opacity="0.5"/>
+    <line x1="29.2" y1="74.8" x2="25" y2="79" stroke="#6C63FF" stroke-width="1" stroke-linecap="round" opacity="0.5"/>
   </g>
-  <circle cx="52" cy="14" r="3" fill="#00ff88" filter="url(#lgfStrong)"/>
-  <circle cx="90" cy="52" r="3" fill="#00d4ff" filter="url(#lgfStrong)"/>
-  <circle cx="52" cy="90" r="3" fill="#00ff88" filter="url(#lgfStrong)"/>
-  <circle cx="14" cy="52" r="3" fill="#00d4ff" filter="url(#lgfStrong)"/>
-  <circle cx="52" cy="52" r="22" fill="#00ff8808"/>
+  <circle cx="52" cy="14" r="3" fill="#FF4D00" filter="url(#lgfStrong)"/>
+  <circle cx="90" cy="52" r="3" fill="#6C63FF" filter="url(#lgfStrong)"/>
+  <circle cx="52" cy="90" r="3" fill="#FF8A00" filter="url(#lgfStrong)"/>
+  <circle cx="14" cy="52" r="3" fill="#6C63FF" filter="url(#lgfStrong)"/>
+  <circle cx="52" cy="52" r="22" fill="#FF4D0008"/>
   <text x="52" y="52" font-family="Orbitron, sans-serif" font-weight="900" font-size="30"
     fill="url(#lgH)" text-anchor="middle" dominant-baseline="central" filter="url(#lgfStrong)" class="logo-ai-text">AI</text>
-  <line x1="110" y1="18" x2="110" y2="86" stroke="#1e1e1e" stroke-width="1"/>
-  <circle cx="110" cy="18" r="2" fill="#00ff8844"/>
-  <circle cx="110" cy="86" r="2" fill="#00d4ff44"/>
+  <line x1="110" y1="18" x2="110" y2="86" stroke="#2A2A3F" stroke-width="1"/>
+  <circle cx="110" cy="18" r="2" fill="#FF4D0044"/>
+  <circle cx="110" cy="86" r="2" fill="#6C63FF44"/>
   <text x="130" y="55" font-family="Orbitron, sans-serif" font-weight="900" font-size="34"
     fill="#ffffff" letter-spacing="3">ACADEMY</text>
   <rect x="130" y="62" width="370" height="1.5" fill="url(#lgHx)" rx="1" opacity="0.8"/>
   <text x="131" y="80" font-family="Exo 2, sans-serif" font-weight="300" font-size="10"
-    fill="#3a3a3a" letter-spacing="3.5">APRENDE · AUTOMATIZA · CRECE</text>
+    fill="#A0A0B0" letter-spacing="3.5">APRENDE · AUTOMATIZA · CRECE</text>
 </svg>
     <a href="https://ai-academy-9078.myshopify.com/cart/45842351423661:1" class="btn btn-fire" target="_blank" rel="noopener">🔥 Comprar ahora $497</a>
   </div>
