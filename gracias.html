@@ -359,7 +359,7 @@ async function enviarContacto(e) {
   }
 }
 
-if (status === 'success') {
+if (status === 'success' || status === 'approved') {
   content.innerHTML = `
     <div class="icon icon-success">✅</div>
     <h1 class="success-title">¡Pago exitoso!<br>Bienvenido a AI Academy</h1>
